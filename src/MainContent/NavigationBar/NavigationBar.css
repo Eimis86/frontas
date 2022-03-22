@@ -1,0 +1,14 @@
+.NavigationBar{
+    width: 25%;
+    height: 100%;
+}
+.categories{
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 10%;
+}
+.categories:hover{
+    background-color: black;
+    color: white;
+}

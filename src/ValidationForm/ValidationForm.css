@@ -1,0 +1,54 @@
+.ValidationForm{
+width: 100%;
+}
+* { box-sizing: border-box; }
+.FormContainer{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+label{
+    font-weight: 600;
+    font-size: .9rem;
+    display: block;
+    margin: .5rem 0;
+}
+[type=email], [type=password], [type=text], [type=number], #gender{
+    display: block;
+    padding: .5rem;
+    background: transparent;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    font-size: .95rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+[type=submit] {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: .25rem 0;
+    padding: .5rem 1rem;
+    border: 1px solid #1E6BD6;
+    border-radius: 18px;
+    background: #1E6BD6;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: .95rem;
+  }
+  [type=submit]:hover{
+      background-color: darkblue;
+  }
+
+  [type=email]:focus, [type=password]:focus, [type=text]:focus, [type=number]:focus, select:focus{
+    outline: none;
+    border: 1px solid #1E6BD6;
+  }

@@ -1,0 +1,10 @@
+.SubCategories{
+    border-left: 1px solid black;
+    width: 75%;
+    height: 100%;
+}
+.FormClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
